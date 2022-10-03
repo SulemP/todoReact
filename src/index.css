@@ -1,13 +1,36 @@
+:root{
+  --prim: purple;
+  --sec: #B698B6;
+  --ter: #ffca3b;
+}
+
+.sombra {
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(150,120,150);
+  box-shadow: 0px 0px 30px 0px rgba(150,120,150);
+}
+
 body {
   margin: 0;
+  padding: 2%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Cambios que yo realice */
+  height: 90vh; 
+  background-image: url('./asset/image/fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.contenedor-general{
+  display: flex;
+  flex-direction: row;
 }

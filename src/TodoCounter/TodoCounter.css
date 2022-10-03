@@ -1,0 +1,22 @@
+.your-task{
+    margin-top: 2%;
+    margin-left: 20%;
+    width: 40%;
+}
+.todo-counter p{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    color: var(--prim);
+    margin-bottom: 3rem;
+}
+
+.counter-tittle{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+    background: linear-gradient(var(--ter),var(--prim));
+    -webkit-background-clip: text; /* Aqui especifico que el gradiente sera para texto*/
+    color: transparent;  
+}
+

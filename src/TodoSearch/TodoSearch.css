@@ -1,0 +1,15 @@
+.search{
+    height: 2.5rem;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.search:focus{
+    color: var(--prim);
+    outline: none; /*quitamos el borde por defecto que se coloca cuando el input está activo*/
+    border: 3px solid var(--prim);
+}

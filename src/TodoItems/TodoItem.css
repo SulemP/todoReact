@@ -1,0 +1,12 @@
+.todo-item{
+    height: 50px;
+    font-size: 1.2rem;
+    background-color: var(--sec);
+    opacity: .8;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+    cursor: pointer;
+}
